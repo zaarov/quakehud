@@ -1,7 +1,3 @@
-# quakehud
-
-<a>INFO</a>
-====
 fork of a fork
 
 <a>ADDITIONS</a>
@@ -14,6 +10,7 @@ fork of a fork
 - fixes
     - fixed shadows not apearing for ammo numbers when using alternate ammo style
     - fixed stick count number not being displayed when using the no stick icon option
+    - fixed speedometer was not being displayed even with the option enabled
 
 <a>CREDITS</a>
 ====
@@ -22,7 +19,7 @@ fork of a fork
 	<li> <b>Hypnotize</b> - m0rehud, garm3nhud, sunset hud, hypnotize hud
 	<li> <b>Eniere</b> - improved default hud
 	<li> <b>Whisker</b> - budhud
-	<li> <b>dom1643</b> - [Quake Live Style TF2 Background](https://gamebanana.com/mods/554583)
+	<li> <b>dom1643</b> - <a href="https://gamebanana.com/mods/554583" target="blank">Quake Live Style TF2 Background</a>
 </ul>
 
 <a>KNOWN BUGS</a>
