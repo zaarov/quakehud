@@ -2,7 +2,7 @@
 {
 	"HudWeaponAmmoBG"
 	{
-		"ControlName"	"CTFImagePanel"
+		"ControlName"		"CTFImagePanel"
 		"fieldName"		"HudWeaponAmmoBG"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -12,15 +12,16 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			"../hud/ammo_blue_bg"
-		"scaleImage"	"1"	
+		"scaleImage"		"1"	
 		"teambg_2"		"../hud/ammo_red_bg"
 		"teambg_3"		"../hud/ammo_blue_bg"
-		"teambg_2_lodef" "../hud/ammo_red_bg_lodef"
-		"teambg_3_lodef" "../hud/ammo_blue_bg_lodef"
+		"teambg_2_lodef" 	"../hud/ammo_red_bg_lodef"
+		"teambg_3_lodef" 	"../hud/ammo_blue_bg_lodef"
 	}
+	
 	"HudWeaponLowAmmoImage"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"		"ImagePanel"
 		"fieldName"		"HudWeaponLowAmmoImage"
 		"xpos"			"3000"
 		"ypos"			"0"
@@ -30,15 +31,16 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			"../hud/ammo_red_bg"
-		"scaleImage"	"1"	
+		"scaleImage"		"1"	
 		"teambg_2"		"../hud/ammo_red_bg"
 		"teambg_3"		"../hud/ammo_blue_bg"
-		"teambg_2_lodef" "../hud/ammo_red_bg_lodef"
-		"teambg_3_lodef" "../hud/ammo_blue_bg_lodef"
+		"teambg_2_lodef" 	"../hud/ammo_red_bg_lodef"
+		"teambg_3_lodef" 	"../hud/ammo_blue_bg_lodef"
 	}
+	
 	"AmmoInClip"
 	{
-		"ControlName"	"CExLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"AmmoInClip"
 		"font"			"Garm3nFontHuge"
 		"fgcolor"		"Garm3nHUDWhite"
@@ -49,13 +51,13 @@
 		"tall"			"42"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"center"
-		"labelText"		"%Ammo%"
-		
-	}		
+		"textAlignment"		"center"
+		"labelText"		"%Ammo%"	
+	}
+	
 	"AmmoInClipShadow"
 	{
-		"ControlName"	"CExLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"AmmoInClipShadow"
 		"font"			"Garm3nFontHuge"
 		"fgcolor"		"Garm3nHUDDarkGrey"
@@ -66,15 +68,16 @@
 		"tall"			"42"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"center"	
+		"textAlignment"		"center"	
 		"labelText"		"%Ammo%"
-		"pin_to_sibling" "AmmoInClip"
+		"pin_to_sibling" 	"AmmoInClip"
 		"pin_corner_to_sibling" "PIN_TOPRIGHT"
 		"pin_to_sibling_corner" "PIN_TOPRIGHT"
 	}
+	
 	"AmmoInReserve"
 	{
-		"ControlName"	"CExLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"AmmoInReserve"
 		"font"			"Garm3nFontHuge"
 		"fgcolor"		"Garm3nHUDWhite"
@@ -85,12 +88,13 @@
 		"tall"			"42"
 		"visible"		"0"
 		"enabled"		"1"
-		"textAlignment"	"west"
+		"textAlignment"		"west"
 		"labelText"		"%AmmoInReserve%"
-	}		
+	}
+	
 	"AmmoInReserveShadow"
 	{
-		"ControlName"	"CExLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"AmmoInReserveShadow"
 		"font"			"Garm3nFontHuge"
 		"fgcolor"		"Garm3nHUDDarkGrey"
@@ -101,16 +105,16 @@
 		"tall"			"42"
 		"visible"		"0"
 		"enabled"		"1"
-		"textAlignment"	"west"
+		"textAlignment"		"west"
 		"labelText"		"%AmmoInReserve%"
-		"pin_to_sibling" "AmmoInReserve"
+		"pin_to_sibling" 	"AmmoInReserve"
 		"pin_corner_to_sibling" "PIN_TOPRIGHT"
 		"pin_to_sibling_corner" "PIN_TOPRIGHT"
-
 	}
+	
 	"AmmoNoClip"
 	{
-		"ControlName"	"CExLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"AmmoNoClip"
 		"font"			"Garm3nFontHuge"
 		"fgcolor"		"Garm3nHUDWhite"
@@ -121,13 +125,14 @@
 		"tall"			"42"
 		"visible"		"0"
 		"enabled"		"1"
-		"textAlignment"	"west"
+		"textAlignment"		"west"
 		"labelText"		"%Ammo%"
 		
-	}	
+	}
+	
 	"AmmoNoClipShadow"
 	{
-		"ControlName"	"CExLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"AmmoNoClipShadow"
 		"font"			"Garm3nFontHuge"
 		"fgcolor"		"Garm3nHUDDarkGrey"
@@ -138,9 +143,9 @@
 		"tall"			"42"
 		"visible"		"0"
 		"enabled"		"1"
-		"textAlignment"	"west"
+		"textAlignment"		"west"
 		"labelText"		"%Ammo%"
-		"pin_to_sibling" "AmmoNoClip"
+		"pin_to_sibling" 	"AmmoNoClip"
 		"pin_corner_to_sibling" "PIN_TOPRIGHT"
 		"pin_to_sibling_corner" "PIN_TOPRIGHT"
 	}
